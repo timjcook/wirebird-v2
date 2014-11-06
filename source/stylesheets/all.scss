@@ -1,11 +1,23 @@
 #main {
+ 
+  .visible-xs-block {
+    h1.page-header {
+      letter-spacing: 7px;
+    }
+  }
+  .hidden-xs {
+    h1.page-header {
+      letter-spacing: 60px;
+      padding-left: 10%;
+    }
+  }
   h1.page-header {
     font-size: 50px;
-    letter-spacing: 80px;
-    padding-left: 80px;
+    letter-spacing: 10px;
     text-align: center;
     text-transform: uppercase;
   }
+
   img {
     width: 100%;
   } 
@@ -24,4 +36,11 @@
       padding-right: 10px;
     }
   }
+  .btn.social-link {
+    font-size: 20px;
+    width: 30px;
+    padding: 4px;
+    text-align: left;
+  }
+
 }
